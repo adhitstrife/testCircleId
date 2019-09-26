@@ -1,0 +1,26 @@
+1.  a. $_GET adalah variabel super global pada php untuk menampung nilai yang di kirimkan oleh form yang menggunakan method=_GET.
+    a. $_POST adalah variabel super global pada php untuk menampung nilai yang di kirimkan oleh form yang menggunakan method=_POST.
+2. Namespacing adalah proses pengelompokan file ke dalam beberapa sub folder untuk menghindari konflik apa bila terdapat file dengan nama yang sama dalam satu project
+3. Magic method adalah fungsi yang di gunakan untuk memberikan response terhadap event - event tertentu
+4.  global adalah variabel yang dapat di akses oleh semua environtment di dalam suatu project
+    use adalah anonynmous fungtion yang di gunakan untuk menggunakan sebuah function dari environtment berbeda di dalam sebuah project yang sama
+    static adalah variabel yang mempertahankan nilai dasarnya setiap kali dia di panggil
+    public variable yang dapat di gunakan di luar classnya
+    protected adalah jenis variabel yang di gunakan di dalam callssnya maupun oleh parent ataupun child classnya
+    private adalah variabel yang hanya dapat di gunakan oleh class yang mendeklarasikannya
+    self di gunakan untuk memanggil static member dari sebuah class
+    this di gunakan untuk memanggil non static member dari sebuah class
+    final adalah variabel yang nilainya tidak dapat berubah setelah di deklarasikan
+5.  Abstract class adalah class yang tidak dapat di inisiasi dan tak dapat di buat menjadi object
+    interface adalah prototype dari sebuah class
+    trait adalah mekanisme bagi sebuah class untuk menggunakan kembali kode program yang berasal dari hirarki berbeda
+6.  tight coupling adalah kedaan di mana dua buah class atau lebih saling tergantung satu sama lain
+    loose coupling adalah keadaan dimana setiap class berdiri indipenden
+7. closure adalah class yang di gunakan untuk merepresentasikan fungsi anonim
+8. SPL adalah fungsi fungsi standard PHP yang di gunakan untuk menyelesaikan permasalahan umum pada program
+9.  MVC adalah struktur dalam pembuatan suatu program di mana setiap data di pisah berdasarkan fungsinya
+    HMVC adalah perkembangan dari MVC dimana struktur MVC di kelompokan lagi berdasarkan fungsi yang di representasi kan olehnya
+10. PSR adalah spesifikasi yang di hasilkan oleh PHP-FIG mengenai cara seharusnya sebuah program PHP di tuliskan
+    contoh PSR = penulisan class constant di haruskan untuk di tulis dengan huruf capital, penulisan property menggunakan format StudlyCaps,camelCase dll
+11. COmposer adalah aplikasi package manager yang menyediakan standard format untuk mengelola dependensi PHP
+    
